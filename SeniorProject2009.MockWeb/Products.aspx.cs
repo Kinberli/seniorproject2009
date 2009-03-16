@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SeniorProject2009.MockWeb
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Products : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -1,0 +1,24 @@
+﻿html { background: #333333 url("../images/html-bg.png") repeat-y scroll center top; }
+body { background: transparent url("../images/body-bg.png") repeat-x scroll center top; }
+#body2 { background: transparent url("../images/body2-bg.png") no-repeat scroll center top; }
+
+h2.title { font-size: 3.69em; letter-spacing: -0.03em; margin-top: 0.3333em; }
+.title {color:#666; line-height: 1.25em; margin-bottom: 0;}
+
+/** Header **/
+#header { padding-top: 20px; }
+#header h1 { height: 55px; }
+#header h1 a {
+    background: transparent url("../images/logo.png") no-repeat scroll left top;
+    display: block;
+    height: 65px;
+    width: 440px;
+    text-decoration: none;
+    text-indent: -9999em;
+}
+#header #slogan { display: none; }
+#header #navigation { height: 50px; font-size: 20px;}
+#header #navigation li { margin: 0; }
+#header #navigation a { display: block; padding: 10px; height: 30px !important; color: #000; opacity: 0.6;}
+#header #navigation a:hover { background-color: #c7e3a4; opacity: 1; }
+#header #subhead { height: 40px; }
